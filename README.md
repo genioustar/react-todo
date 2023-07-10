@@ -32,4 +32,7 @@ npm i gh-pages
 # recoil 설치
 
 npm install recoil
-# react-todo
+
+# react-hook-form 설치
+
+npm install react-hook-form
