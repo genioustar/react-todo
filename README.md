@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# styled-components 설치하기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+npm -i styled-components@latest로 설치!
+npm -i --save-dev @types/styled-components
 
-## Available Scripts
+# 타입스크립트랑 같이 react 설치!
 
-In the project directory, you can run:
+npx create-react-app my-app --template typescript
 
-### `npm start`
+# styled-components 와 ts 연계
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+styled.d.ts 만들기! <- styled-components에 선언되어있는 styled.d.ts의 내용을 오버라이드 하는것!
+내용은 아래 url참고
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+https://styled-components.com/docs/api#typescript
 
-### `npm test`
+# react-query 설치
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+react 18에서 사용하려면 mpn i react-query가 아니라 아래처럼 설치해야함!
+npm i @tanstack/react-query
 
-### `npm run build`
+# react helmat 설치하기
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm i react-helmet
+npm i --save-dev @types/react-helmet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# gh-pages 설치
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+결과물을 github page에 공유할 수 있게 해주는 패키지
+npm i gh-pages
 
-### `npm run eject`
+# recoil 설치
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install recoil
+# react-todo
